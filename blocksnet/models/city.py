@@ -13,7 +13,8 @@ from .scenario import Scenario
 SERVICE_TYPES = {
     "kindergartens": {"demand": 61, "accessibility": 10, "buffer": 15},
     "schools": {"demand": 120, "accessibility": 15},
-    "recreational_areas": {"demand": 6000, "accessibility": 15},
+    "multifunctional_centers": {"demand": 25, "accessibility": 60},
+    "recreational_areas" : {"demand": 6000, "accessibility": 15},
     "hospitals": {"demand": 9, "accessibility": 60},
     "pharmacies": {"demand": 50, "accessibility": 10},
     "policlinics": {"demand": 27, "accessibility": 15},
